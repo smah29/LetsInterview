@@ -1,0 +1,60 @@
+@CHARSET "ISO-8859-1";
+.container{
+	margin:20px 20px 30px 20px;
+	background-color:  #eeeeee;
+	border-radius: 20px;
+	height:150px;
+	position:relative;
+	width:550px;
+    	z-index:-6;
+}
+.imgA{
+	height:150px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:150px;
+	border-radius: 20px 0px 0px 20px;
+	z-index:-5;
+}
+.textA{
+	position:absolute;
+	padding-top:50px;
+	padding-left:200px;
+	font-family:sans-serif;
+	font-size:23px;
+}
+
+.overlapA{
+	position:absolute;
+	border-radius: 0px 0px 0px 20px;
+}
+.overlapB{
+	position:absolute;
+	border-radius:0px 20px 0px 0px;
+	z-index:-3;
+}
+.overlapC{
+	position:absolute;
+	z-index:-4;
+}
+.purple{
+	background:#817ca6;
+	position:relative;
+	width:85px;
+	height:85px;
+	top:75px;
+	left:476px;
+	border-radius:50%;
+	border:7px solid white;
+	z-index:-2;
+}
+.overlapD{
+	position:absolute;
+	z-index:-1;
+	border-radius:19px 210px 213px 228px;
+}
+.overlapE{
+	position:absolute;
+	border-radius:210px 0px 60px 190px;
+}
